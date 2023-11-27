@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:textColor="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your BMI is:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        android:textSize="38sp"
+        tools:text="27.104"
+        />
+
+    <TextView
+        android:id="@+id/textview_classification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_margin="8dp"
+        tools:text="Classication: Normal" />
+
+    <TextView
+        android:text="Please, see the table below"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Less than 18,5 Underweight" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Between 18,5 to 24,9 Healthy Weight" />
+
+    <TextView
+        android:text="Between 25,0 to 29,9 Overweight"
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Between 30,0 to 39,9 Obese"
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Greater than 40,0 Severely Obese"
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
